@@ -1,17 +1,17 @@
 # Planet Jekyll
 
 Feed list/configuration for [Planet Jekyll](http://planetjekyll.herokuapp.com)
-and [Planet Jekyll (Dev Edition)](http://planetjekyll.herokuapp.com/jekylldev)
+
 
 Note: All feeds including the feed lists (that is, [jekyll.ini](jekyll.ini)
-and [jekyll-dev.ini](jekyll-dev.ini))
+and friends)
 get auto-updated (fetched) once a day (that is, every 24 hours).
 
 
 ## Add Your Feed - How To
 
 Step 1: Add your feed to the feed list (that is, [jekyll.ini](jekyll.ini) or
-[jekyll-dev.ini](jekyll-dev.ini)).
+friends).
 
 
 Example:
@@ -27,7 +27,7 @@ or
 
 ~~~
 [parkermoore]
-  title    = Parker Moore (Blog - By Parker.)
+  title    = Parker Moore
   link     = https://byparker.com
   feed     = https://byparker.com/blog/atom.xml
   github   = parkr
